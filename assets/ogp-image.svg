@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="まちのWEB写真室">
+  <rect width="1200" height="630" fill="#FDFBF7"/>
+  <rect x="1" y="1" width="1198" height="628" fill="none" stroke="#E6E1D8" stroke-width="2"/>
+  <g transform="translate(360,315)" stroke="#E798B4" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-90,-32 h48 l21,-29 h78 l21,29 h48 a13,13 0 0 1 13,13 v114 a13,13 0 0 1 -13,13 h-217 a13,13 0 0 1 -13,-13 v-114 a13,13 0 0 1 13,-13 z"/>
+    <circle cx="0" cy="38" r="44"/>
+  </g>
+  <text x="440" y="290" font-family="'Zen Maru Gothic','Noto Sans JP',sans-serif" font-size="56" font-weight="700" fill="#333333">まちのWEB写真室</text>
+  <text x="440" y="345" font-family="'Noto Sans JP',sans-serif" font-size="26" fill="#6b6b6b">写真も撮れる、地元のホームページ屋さん</text>
+</svg>
