@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- nav -->
+  <rect x="0" y="0" width="1200" height="76" fill="#FDF4F7"/>
+  <text x="56" y="47" font-size="26" font-weight="700" fill="#7A4A57" letter-spacing="1">Cafe Nonoka</text>
+  <text x="800" y="45" font-size="16" fill="#8A6B72">MENU</text>
+  <text x="890" y="45" font-size="16" fill="#8A6B72">CONCEPT</text>
+  <text x="1000" y="45" font-size="16" fill="#8A6B72">ACCESS</text>
+  <rect x="1090" y="24" width="110" height="30" rx="15" fill="#E798B4"/>
+  <text x="1145" y="45" font-size="14" fill="#FFFFFF" text-anchor="middle">ご予約</text>
+
+  <!-- hero -->
+  <text x="56" y="200" font-size="40" font-weight="700" fill="#4A3238">こだわりの一杯を、</text>
+  <text x="56" y="252" font-size="40" font-weight="700" fill="#4A3238">日常に。</text>
+  <text x="58" y="300" font-size="17" fill="#8A6B72">自家焙煎の豆と、焼きたての焼き菓子。</text>
+  <text x="58" y="326" font-size="17" fill="#8A6B72">小さな商店街にある、くつろぎのカフェです。</text>
+  <rect x="58" y="366" width="190" height="52" rx="26" fill="#E798B4"/>
+  <text x="153" y="399" font-size="16" fill="#FFFFFF" text-anchor="middle">メニューを見る</text>
+
+  <!-- hero photo panel: coffee cup illustration -->
+  <rect x="620" y="120" width="524" height="320" rx="12" fill="#FBE2E9"/>
+  <g stroke="#C97E92" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M812,240 h140 v90 a70,70 0 0 1 -140,0 z"/>
+    <path d="M952,255 h26 a28,28 0 0 1 0,56 h-26"/>
+    <path d="M842,215 q8,-16 0,-30 M872,215 q8,-16 0,-30 M902,215 q8,-16 0,-30"/>
+  </g>
+  <line x1="790" y1="345" x2="965" y2="345" stroke="#C97E92" stroke-width="4"/>
+
+  <!-- feature cards -->
+  <g>
+    <rect x="56" y="470" width="326" height="230" rx="10" fill="#FEF8FA" stroke="#F6DDE5"/>
+    <circle cx="100" cy="514" r="16" fill="none" stroke="#E798B4" stroke-width="2"/>
+    <ellipse cx="100" cy="514" rx="7" ry="9" fill="none" stroke="#E798B4" stroke-width="2"/>
+    <text x="80" y="566" font-size="18" font-weight="700" fill="#4A3238">自家焙煎豆</text>
+    <text x="80" y="596" font-size="13" fill="#8A6B72">毎朝店内で焙煎する、</text>
+    <text x="80" y="616" font-size="13" fill="#8A6B72">香り高いコーヒー。</text>
+  </g>
+  <g>
+    <rect x="437" y="470" width="326" height="230" rx="10" fill="#FEF8FA" stroke="#F6DDE5"/>
+    <circle cx="481" cy="514" r="16" fill="none" stroke="#E798B4" stroke-width="2"/>
+    <path d="M471,520 q10,-16 20,0" stroke="#E798B4" stroke-width="2" fill="none"/>
+    <text x="461" y="566" font-size="18" font-weight="700" fill="#4A3238">手作り焼き菓子</text>
+    <text x="461" y="596" font-size="13" fill="#8A6B72">毎日店内で焼き上げる、</text>
+    <text x="461" y="616" font-size="13" fill="#8A6B72">季節の焼き菓子。</text>
+  </g>
+  <g>
+    <rect x="818" y="470" width="326" height="230" rx="10" fill="#FEF8FA" stroke="#F6DDE5"/>
+    <circle cx="862" cy="514" r="16" fill="none" stroke="#E798B4" stroke-width="2"/>
+    <path d="M854,520 h16 M862,512 v16" stroke="#E798B4" stroke-width="2"/>
+    <text x="842" y="566" font-size="18" font-weight="700" fill="#4A3238">くつろぎの空間</text>
+    <text x="842" y="596" font-size="13" fill="#8A6B72">大きな窓から光の差す、</text>
+    <text x="842" y="616" font-size="13" fill="#8A6B72">静かな店内。</text>
+  </g>
+
+  <rect x="0" y="760" width="1200" height="40" fill="#FDF4F7"/>
+  <text x="600" y="785" font-size="13" fill="#B08A94" text-anchor="middle">© Cafe Nonoka（デザインサンプル）</text>
+</svg>
