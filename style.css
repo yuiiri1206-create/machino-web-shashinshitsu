@@ -437,6 +437,40 @@ input, textarea {
 .photo-band { border-top: 1px solid var(--color-border); }
 .photo-band img { width: 100%; height: clamp(200px, 32vw, 420px); object-fit: cover; }
 
+/* ---------- Showcase (撮影事例 marquee) ---------- */
+.showcase {
+  border-top: 1px solid var(--color-border);
+  padding-block-start: clamp(56px, 8vw, 96px);
+}
+
+.showcase-head { margin-bottom: 32px; }
+
+.showcase-track-wrap {
+  overflow: hidden;
+}
+
+.showcase-track {
+  display: flex;
+  width: max-content;
+  animation: showcase-scroll 32s linear infinite;
+}
+
+.showcase-track:hover {
+  animation-play-state: paused;
+}
+
+.showcase-track img {
+  height: clamp(220px, 30vw, 380px);
+  width: auto;
+  flex-shrink: 0;
+  border-right: 1px solid var(--color-border);
+}
+
+@keyframes showcase-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
 /* ---------- Pricing ---------- */
 .pricing-grid {
   display: grid;
