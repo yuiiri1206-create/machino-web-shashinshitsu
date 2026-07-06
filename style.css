@@ -334,6 +334,50 @@ input, textarea {
   margin-top: 3px;
 }
 
+.worries-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.worries-group-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.worries-group-head .icon {
+  color: var(--color-blue);
+  font-size: 1.4rem;
+}
+
+.worries-group:last-child .worries-group-head .icon {
+  color: var(--color-pink);
+}
+
+.worries-group-head h3 {
+  font-size: 1.05rem;
+}
+
+@media (min-width: 900px) {
+  .worries-groups {
+    flex-direction: row;
+    gap: 0;
+  }
+  .worries-group {
+    flex: 1;
+    padding-inline: 40px;
+  }
+  .worries-group:first-child {
+    padding-left: 0;
+    border-right: 1px solid var(--color-border);
+  }
+  .worries-group:last-child {
+    padding-right: 0;
+  }
+}
+
 .worries-outro {
   margin-top: 40px;
   font-family: var(--font-heading);
